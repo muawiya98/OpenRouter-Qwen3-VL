@@ -1,0 +1,20 @@
+{
+  "name": "openrouter-qwen3-vl",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/handel_images.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "@langchain/openai": "^1.2.2",
+    "dotenv": "^16.4.5",
+    "langchain": "^1.2.10",
+    "node-fetch": "^3.3.2",
+    "pdf-parse": "^2.4.5"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "criteria": [
+    {
+      "name": "De-escalation & Empathy",
+      "description": "Did the agent effectively calm the angry user and acknowledge their frustration without being defensive?",
+      "scale": "0-10"
+    },
+    {
+      "name": "Root Cause Analysis",
+      "description": "Did the agent correctly identify and explain the technical reason for the issue?",
+      "scale": "0-10"
+    },
+    {
+      "name": "Solution Efficiency",
+      "description": "Did the agent prioritize getting the user back online (workaround) over arguing about the cause?",
+      "scale": "0-10"
+    },
+    {
+      "name": "Policy Negotiation",
+      "description": "Did the agent handle the refund demand firmly but politely, protecting company revenue while satisfying the customer?",
+      "scale": "0-10"
+    },
+    {
+      "name": "Communication Clarity",
+      "description": "Was the technical explanation accessible and the next steps clear?",
+      "scale": "0-10"
+    }
+  ]
+}

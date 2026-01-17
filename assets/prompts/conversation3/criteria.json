@@ -1,0 +1,34 @@
+{
+  "criteria": [
+    {
+      "name": "Empathy and Emotional Intelligence",
+      "description": "Did the agent acknowledge the customer's frustration and show genuine empathy for repeated issues?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Problem Diagnosis",
+      "description": "Did the agent effectively assess the technical issue and avoid repeating failed troubleshooting steps?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Solution Efficiency",
+      "description": "Did the agent quickly escalate to appropriate next steps rather than prolonging the issue?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Flexibility and Accommodation",
+      "description": "Did the agent work within the customer's constraints (scheduling, availability)?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Transparency",
+      "description": "Were explanations clear about costs, warranty coverage, and what to expect next?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Issue Resolution",
+      "description": "Did the agent successfully schedule a solution and provide clear follow-up information?",
+      "scale": "0-5"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "criteria": [
+    {
+      "name": "Intent Understanding",
+      "description": "Did the agent correctly understand the user's needs and questions?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Accuracy",
+      "description": "Were the agent’s responses factually correct and relevant?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Clarity",
+      "description": "Were the responses clear, structured, and easy to understand?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Helpfulness",
+      "description": "Did the agent provide useful guidance or solutions?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Professional Tone",
+      "description": "Was the agent polite, professional, and appropriate?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Task Completion",
+      "description": "Did the agent successfully guide the user toward completing their goal?",
+      "scale": "0-5"
+    }
+  ]
+}

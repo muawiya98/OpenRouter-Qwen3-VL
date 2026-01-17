@@ -1,0 +1,34 @@
+{
+  "criteria": [
+    {
+      "name": "Issue Tracking",
+      "description": "Did the agent identify and address all three distinct problems (late delivery, missing item, damaged item)?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Proactive Problem-Solving",
+      "description": "Did the agent offer solutions before being asked and anticipate customer needs?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Compensation Fairness",
+      "description": "Were compensation offers appropriate and fair for the level of inconvenience?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Time Sensitivity Handling",
+      "description": "Did the agent address the Friday deadline urgency and provide realistic solutions?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Process Clarity",
+      "description": "Were instructions clear about returns, refunds, replacements, and what the customer needs to do?",
+      "scale": "0-5"
+    },
+    {
+      "name": "Customer Satisfaction",
+      "description": "Did the agent successfully turn a negative experience into a positive outcome?",
+      "scale": "0-5"
+    }
+  ]
+}

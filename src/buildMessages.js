@@ -1,11 +1,21 @@
 import fs from 'fs';
 import 'dotenv/config';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const system = JSON.parse(fs.readFileSync(process.env.SYSTEM_PROMPT_PATH, 'utf-8'));
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-const criteria = JSON.parse(fs.readFileSync(process.env.CRITERIA_PATH, 'utf-8'));
+const outputDir = path.join(__dirname, '../assets');
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir);
+}
 
-const conversation = JSON.parse(fs.readFileSync(process.env.CONVERSATION_PATH, 'utf-8'));
+const system = JSON.parse(fs.readFileSync(path.join(outputDir, process.env.SYSTEM_PROMPT_PATH), 'utf-8'));
+
+const criteria = JSON.parse(fs.readFileSync(path.join(outputDir, process.env.CRITERIA_PATH), 'utf-8'));
+
+const conversation = JSON.parse(fs.readFileSync(path.join(outputDir, process.env.CONVERSATION_PATH), 'utf-8'));
 const messages = [
   {
     role: 'system',

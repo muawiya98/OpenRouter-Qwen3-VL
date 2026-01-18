@@ -1,0 +1,45 @@
+{
+  "summary": "The customer is visibly frustrated after three days of unresolved internet outage and multiple failed support attempts. The agent successfully de-escalated the situation by acknowledging the frustration, avoiding redundant troubleshooting, and scheduling a timely technician visit with clear cost transparency.",
+  "evaluation": [
+    {
+      "criterion": "Empathy and Emotional Intelligence",
+      "score": 5,
+      "reasoning": "The agent opened with a sincere apology and acknowledged the customer’s repeated calls and frustration. Phrases like 'I sincerely apologize' and 'I understand you've already tried basic troubleshooting' validated the customer’s experience."
+    },
+    {
+      "criterion": "Problem Diagnosis",
+      "score": 4,
+      "reasoning": "The agent reviewed the account history and network status, correctly identifying the modem as offline and ruling out area-wide issues. However, they didn’t probe deeper into whether the modem was faulty or if there was a line issue before escalating."
+    },
+    {
+      "criterion": "Solution Efficiency",
+      "score": 5,
+      "reasoning": "The agent avoided repeating troubleshooting steps the customer had already done and immediately escalated to scheduling a technician, which was the appropriate next step given the context."
+    },
+    {
+      "criterion": "Flexibility and Accommodation",
+      "score": 5,
+      "reasoning": "The agent proactively offered evening slots when the customer mentioned work hours, showing responsiveness to scheduling constraints and finding a mutually agreeable time."
+    },
+    {
+      "criterion": "Transparency",
+      "score": 5,
+      "reasoning": "The agent clearly explained that no charge would apply due to warranty coverage and confirmed the technician’s visit window and follow-up confirmation text, leaving no ambiguity."
+    },
+    {
+      "criterion": "Issue Resolution",
+      "score": 5,
+      "reasoning": "The agent successfully scheduled the technician, confirmed the time, and provided next steps (confirmation text), ensuring the customer knew exactly what to expect."
+    }
+  ],
+  "overall_average_score": 4.83,
+  "special_analysis": {
+    "handling_frustration": "The agent effectively diffused frustration by validating the customer’s experience, apologizing sincerely, and moving quickly to a tangible solution without defensiveness or blame.",
+    "escalation_procedure": "The agent followed correct escalation protocol by skipping redundant troubleshooting, confirming the issue was beyond self-help, and scheduling a technician promptly with appropriate cost handling."
+  },
+  "improvement_suggestions": [
+    "Probe slightly deeper into the nature of the modem offline status (e.g., signal strength, error codes) before scheduling to potentially identify if it’s a simple modem replacement vs. a line issue.",
+    "Offer to send a preliminary diagnostic report or summary via email/text to reinforce transparency and set technician expectations.",
+    "Proactively suggest a callback option if the technician is delayed, to reduce customer anxiety about the scheduled window."
+  ]
+}

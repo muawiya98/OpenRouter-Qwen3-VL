@@ -1,0 +1,46 @@
+{
+  "summary": "The customer reported three distinct issues: late delivery (5 days past the 2-day shipping promise), a missing item (wireless headphones), and a damaged item (phone case with a crack). The customer also emphasized urgency, needing replacements by Friday for travel.",
+  "evaluation": [
+    {
+      "criterion": "Issue Tracking",
+      "score": 5,
+      "reasoning": "The agent identified and addressed all three issues: late delivery, missing item, and damaged item. Each was resolved with specific actions — replacement for missing headphones, replacement for damaged case, and refund + credit for late delivery."
+    },
+    {
+      "criterion": "Proactive Problem-Solving",
+      "score": 5,
+      "reasoning": "The agent proactively offered replacements without waiting for customer requests, verified stock and shipping feasibility, and initiated refunds and credits without being prompted. The agent also anticipated the need for tracking info and promised to send it."
+    },
+    {
+      "criterion": "Compensation Fairness",
+      "score": 5,
+      "reasoning": "The compensation was fair: full shipping refund ($15) plus $20 store credit for the overall inconvenience. No return required for the damaged item, which added goodwill. The replacement items were expedited at no cost."
+    },
+    {
+      "criterion": "Time Sensitivity Handling",
+      "score": 5,
+      "reasoning": "The agent acknowledged the Friday deadline, confirmed overnight shipping feasibility, verified stock, and guaranteed delivery by Friday before 8 PM — directly addressing the customer’s urgent need for travel."
+    },
+    {
+      "criterion": "Process Clarity",
+      "score": 5,
+      "reasoning": "Instructions were clear: no return needed for damaged item, replacements shipped overnight, tracking info to be emailed within 2 hours, and credit to appear within 24 hours. The customer confirmed understanding and satisfaction."
+    },
+    {
+      "criterion": "Customer Satisfaction",
+      "score": 5,
+      "reasoning": "The customer ended the conversation with gratitude and stated, 'that covers everything,' indicating the issues were fully resolved. The agent’s tone, speed, and compensation turned a negative experience into a positive one."
+    }
+  ],
+  "overall_average_score": 5,
+  "analysis_focus": {
+    "concurrent_problem_handling": "The agent efficiently managed three overlapping issues without confusion, addressing each with tailored solutions while maintaining a cohesive resolution plan.",
+    "compensation_strategy": "Compensation was generous and appropriate — refunding shipping fees, adding store credit, and waiving return requirements — which likely exceeded customer expectations and built loyalty.",
+    "urgency_management": "The agent prioritized the Friday deadline, confirmed feasibility immediately, and guaranteed delivery — demonstrating strong time-sensitive problem-solving and customer-centric responsiveness."
+  },
+  "improvement_suggestions": [
+    "Consider offering a small additional gesture (e.g., a discount on next purchase) to further reinforce goodwill after multiple failures.",
+    "Proactively suggest a follow-up call or message on Thursday to confirm delivery status, especially for time-sensitive needs.",
+    "Document the resolution in the customer’s profile with a note about their travel date to inform future agents and prevent recurrence."
+  ]
+}

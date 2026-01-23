@@ -1,39 +1,39 @@
 {
-  "summary": "User experienced API downtime due to expired token from failed auto-rotation, causing checkout failure. Agent restored service with emergency token, then negotiated partial compensation while preserving company policy. User accepted 20% credit and requested follow-up on script fix.",
+  "summary": "User experienced API downtime due to expired token from failed auto-rotation script. Agent restored service via emergency token, offered 20% credit after negotiation, and agreed to assist with script fix later.",
   "evaluation": [
     {
       "criterion": "De-escalation & Empathy",
       "score": 9,
-      "reasoning": "Agent immediately acknowledged urgency and apologized without defensiveness. Calmed user by focusing on rapid resolution and validating their business impact. Maintained respectful tone despite user’s aggression."
+      "reasoning": "Agent acknowledged urgency and frustration immediately, apologized sincerely, and focused on resolution without defensiveness. Calmed user effectively despite initial hostility."
     },
     {
       "criterion": "Root Cause Analysis",
       "score": 8,
-      "reasoning": "Agent correctly identified expired token as root cause and linked it to auto-rotation failure. Could have more clearly explained why auto-rotation failed or how to prevent recurrence during initial diagnosis."
+      "reasoning": "Agent correctly identified expired token as root cause and linked it to auto-rotation failure. Could have more clearly explained why auto-rotation failed or how to prevent recurrence."
     },
     {
       "criterion": "Solution Efficiency",
       "score": 10,
-      "reasoning": "Agent prioritized immediate restoration by offering emergency token before debating root cause. Action was swift, clear, and effective — service resumed within 60 seconds as promised."
+      "reasoning": "Agent prioritized immediate restoration by offering a temporary token without debating fault. Service was restored within 60 seconds as promised."
     },
     {
       "criterion": "Policy Negotiation",
-      "score": 9,
-      "reasoning": "Agent firmly upheld policy (no full refund for client-side issue) but offered escalating goodwill gestures (15% → 20% credit). Balanced revenue protection with customer retention by giving user a choice and closing the ticket amicably."
+      "score": 8,
+      "reasoning": "Agent held firm on policy (no 50% refund for client-side issue) but offered escalating options and increased credit from 15% to 20% to close the ticket amicably."
     },
     {
       "criterion": "Communication Clarity",
       "score": 9,
-      "reasoning": "Technical cause was explained simply (expired token → 503). Next steps (emergency token delivery, 60-second recovery) were clear. Could have added brief instructions for token swap or script debugging in initial response."
+      "reasoning": "Technical cause was explained simply (token expired → 503). Next steps (emergency token, email, timing) were clear and actionable. Follow-up on script fix was promised."
     }
   ],
-  "overall_score_average": 9,
+  "overall_score_average": 8.8,
   "strengths": [
-    "Rapid de-escalation and immediate service restoration",
-    "Balanced policy enforcement with customer-centric compromise"
+    "Exceptional de-escalation and rapid service restoration",
+    "Clear, actionable communication under pressure"
   ],
   "improvements": [
-    "Include brief troubleshooting steps or script debugging offer during initial diagnosis",
-    "Clarify why auto-rotation failed or how to validate it before offering compensation"
+    "Proactively explain how to prevent auto-rotation failure in future",
+    "Offer to schedule follow-up for script fix immediately rather than vaguely"
   ]
 }

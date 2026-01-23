@@ -6,16 +6,22 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const outputDir = path.join(__dirname, '../assets');
-if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir);
-}
+const ROOT_DIR = path.join(__dirname, '..');
+const outputDir = path.join(ROOT_DIR, process.env.EVALUATION_OUTPUT_PATH);
+if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
-const system = JSON.parse(fs.readFileSync(path.join(outputDir, process.env.SYSTEM_PROMPT_PATH), 'utf-8'));
+const system = JSON.parse(
+  fs.readFileSync(path.join(ROOT_DIR, process.env.SYSTEM_PROMPT_PATH), 'utf-8')
+);
 
-const criteria = JSON.parse(fs.readFileSync(path.join(outputDir, process.env.CRITERIA_PATH), 'utf-8'));
+const criteria = JSON.parse(
+  fs.readFileSync(path.join(ROOT_DIR, process.env.CRITERIA_PATH), 'utf-8')
+);
 
-const conversation = JSON.parse(fs.readFileSync(path.join(outputDir, process.env.CONVERSATION_PATH), 'utf-8'));
+const conversation = JSON.parse(
+  fs.readFileSync(path.join(ROOT_DIR, process.env.CONVERSATION_PATH), 'utf-8')
+);
+
 const messages = [
   {
     role: 'system',

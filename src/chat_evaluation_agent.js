@@ -4,10 +4,8 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import messages from './buildMessages.js';
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
 const API_KEY = process.env.OPENROUTER_API_KEY;
 
 if (!API_KEY) {
@@ -51,7 +49,7 @@ async function runChat() {
     console.error('Raw string:', raw);
     return;
   }
-  const outputDir = path.join(__dirname, '../assets');
+  const outputDir = path.join(__dirname, '..');
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
